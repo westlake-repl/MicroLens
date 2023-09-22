@@ -18,6 +18,20 @@ Additionally, we have provided a MicroLens-100K folder, which consists of the Mi
 
 For various types of modal data and the interaction pairs of MicroLens-100K, MicroLens-1M, and MicroLens, we will release all of them once the paper is accepted. -->
 
+We release 50,000 users as well as their associated multi-modal data through the given link. To obtain the entire MicroLens dataset, please contact the corresponding author via email.
+
+## Citation
+If you use our dataset, code or find IDvs.MoRec useful in your work, please cite our paper as:
+
+```bib
+@article{xxx,
+  title={A Content-Driven Micro-Video Recommendation Dataset at Scale},
+  author={Yongxin Ni, Yu Cheng, Junjie Shan, Xiangyan Liu, Junchen Fu, Youhua Li, Xiangnan He, Yongfeng Zhang and Fajie Yuan},
+  journal={arXiv preprint arXiv:xxx},
+  year={2023}
+}
+```
+
 # Code
 
 We have released the codes for all algorithms, including VideoRec (which implements all 15 video models in this project), IDRec, and VIDRec. For more details, please refer to the following paths: "Code/VideoRec", "Code/IDRec", and "Code/VIDRec". Each folder contains multiple subfolders, with each subfolder representing the code for a baseline.
