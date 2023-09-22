@@ -1,0 +1,45 @@
+model: NFM
+
+use_modality: False
+checkpoint_dir: NFM/saved
+MAX_ITEM_LIST_LENGTH: 10
+
+embedding_size: 1024
+dropout_prob: 0
+mlp_hidden_size: []
+
+
+data_path: ./
+dataset: ks
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: item_id
+
+
+
+# Training and evaluation config
+
+
+metric_decimal_place: 7
+
+
+# Training and evaluation config
+epochs: 120
+
+train_batch_size: 64 #2500     4卡：16,单卡：64
+eval_batch_size: 20
+
+learning_rate: 0.0001
+weight_decay: 0
+
+neg_sampling_num: 1
+neg_sampling: {'uniform' : 1}
+
+eval_step: 1 #每次训练后做evalaution的次数
+stopping_step: 5
+
+
+topk: [5,10,20]
+metrics: ['Recall', 'NDCG']
+valid_metric: NDCG@10
+metric_decimal_place: 7
+

@@ -1,0 +1,50 @@
+# general
+gpu_id: 0
+use_gpu: True
+seed: 2020
+state: INFO
+reproducibility: True
+data_path: 'dataset/'
+checkpoint_dir: 'saved'
+show_progress: True
+save_dataset: False
+data_save_path: ~
+
+log_wandb: False
+wandb_project: 'REC'
+
+# training settings
+epochs: 300
+train_batch_size: 2048
+learner: adam
+learning_rate: 0.001
+neg_sampling:
+  uniform: 1
+eval_step: 1
+stopping_step: 10
+clip_grad_norm: ~
+# clip_grad_norm:  {'max_norm': 5, 'norm_type': 2}
+weight_decay: 0.0
+loss_decimal_place: 4
+require_pow: False
+
+# evaluation settings
+eval_args: {
+    order: 'TO',
+    split: {'LS': 'valid_and_test'},
+    group_by: user,
+    mode: full
+}
+
+valid_metric_bigger: True
+metric_decimal_place: 5
+
+# Common Features
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: item_id
+TIME_FIELD: timestamp
+
+
+MAX_ITEM_LIST_LENGTH: ~
+
+benchmark_filename: ~

@@ -1,0 +1,44 @@
+model: LightGCN
+
+encoder_type: ~
+use_modality: False
+checkpoint_dir: LightGCN/saved
+MAX_ITEM_LIST_LENGTH: 10
+
+embedding_size: 512
+n_layers: 1
+
+
+data_path: ./
+dataset: ks
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: item_id
+
+
+
+# Training and evaluation config
+
+
+metric_decimal_place: 7
+
+
+# Training and evaluation config
+epochs: 100
+
+train_batch_size: 128  #2500     4卡：16,单卡：64
+eval_batch_size: 128
+
+learning_rate: 0.0001
+weight_decay: 0
+
+neg_sampling_num: 1
+neg_sampling: {'uniform' : 1}
+
+eval_step: 1 #每次训练后做evalaution的次数
+stopping_step: 10
+
+
+topk: [5,10]
+metrics: ['Recall', 'NDCG']
+valid_metric: NDCG@10
+metric_decimal_place: 7

@@ -1,0 +1,49 @@
+model: VBPR
+seed: 2020
+use_modality: False
+checkpoint_dir: VBPR/saved
+MAX_ITEM_LIST_LENGTH: 10
+
+embedding_size: 512
+dropout_prob: 0
+
+
+data_path: ./
+dataset: ks
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: item_id
+
+#v_feat_path: /home/cy/new_work_space/bilibili/data/sub_data/visual_features/cls_clip-vit-base-patch32_5.npy
+
+v_feat_path: ./ks/video_visual_features.npy
+# Training and evaluation config
+
+
+# Training and evaluation config
+epochs: 120
+
+train_batch_size: 1024  #2500     4卡：16,单卡：64
+eval_batch_size: 128
+
+optim_args: {
+    learner: AdamW,
+    modal_lr: 0.0001,
+    rec_lr: 0.001,
+    modal_decay: 0,
+    rec_decay: 0
+}
+
+args_learner: AdamW
+neg_sampling_num: 1
+neg_sampling: {'uniform' : 1}
+
+eval_step: 1 #每次训练后做evalaution的次数
+stopping_step: 10
+
+
+topk: [5,10]
+metrics: ['Recall', 'NDCG']
+valid_metric: NDCG@10
+metric_decimal_place: 7
+check_decay_name: projection
+del: True
