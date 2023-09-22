@@ -4,7 +4,7 @@
 
 Download link: https://recsys.westlake.edu.cn/MicroLens-Dataset/
 
-<! --Dataset downloader (for Windows): https://github.com/microlens2023/microlens-dataset/blob/master/Downloader/microlens_downloader.exe-->
+<!-- Dataset downloader (for Windows): https://github.com/microlens2023/microlens-dataset/blob/master/Downloader/microlens_downloader.exe
 
 Dataset downloader (for Linux): https://github.com/microlens2023/microlens-dataset/blob/master/Downloader/microlens_downloader
 
@@ -16,7 +16,7 @@ We have uploaded a MicroLens-TOY folder, which contains 100 randomly sampled vid
 
 Additionally, we have provided a MicroLens-100K folder, which consists of the MicroLens-100K_pairs.tsv file containing interaction pairs (each row indicates a user and the videos they interacted with, sorted by interaction timestamp), along with audio files, textual captions, and corresponding watermarked cover files for all videos in the MicroLens-100K dataset. Please note that video content for MicroLens-100K is currently not available.
 
-For various types of modal data and the interaction pairs of MicroLens-100K, MicroLens-1M, and MicroLens, we will release all of them once the paper is accepted.
+For various types of modal data and the interaction pairs of M -->icroLens-100K, MicroLens-1M, and MicroLens, we will release all of them once the paper is accepted. -->
 
 # Code
 
