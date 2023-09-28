@@ -2,7 +2,7 @@
 
 # Dataset
 
-Download link: https://recsys.westlake.edu.cn/MicroLens-Dataset/ (It will be prepared in several days)
+Download link: https://recsys.westlake.edu.cn/MicroLens-Dataset/
 
 <!-- Dataset downloader (for Windows): https://github.com/microlens2023/microlens-dataset/blob/master/Downloader/microlens_downloader.exe
 
@@ -24,10 +24,10 @@ We release 50,000 users as well as their associated multi-modal data through the
 If you use our dataset, code or find MicroLens useful in your work, please cite our paper as:
 
 ```bib
-@article{xxx,
+@article{ni2023contentdriven,
   title={A Content-Driven Micro-Video Recommendation Dataset at Scale},
   author={Yongxin Ni, Yu Cheng, Junjie Shan, Xiangyan Liu, Junchen Fu, Youhua Li, Xiangnan He, Yongfeng Zhang and Fajie Yuan},
-  journal={arXiv preprint arXiv:xxx},
+  journal={arXiv preprint arXiv:2309.15379},
   year={2023}
 }
 ```
@@ -64,3 +64,7 @@ transformers==4.23.1
 # Video Understanding Meets Recommender Systems
 
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/main/Results/video_meets_rs.png"/></div>
+
+# News
+#### The laboratory is hiring research assistants, interns, doctoral students, and postdoctoral researchers. Please contact the corresponding author for details.
+#### 实验室招聘科研助理，实习生，博士生和博士后，请联系通讯作者。
