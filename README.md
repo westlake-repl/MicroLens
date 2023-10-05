@@ -26,9 +26,9 @@ We also release a subset of our MicroLens for multimodal fairness recommendation
 If you use our dataset, code or find MicroLens useful in your work, please cite our paper as:
 
 ```bib
-@article{ni2023contentdriven,
+@article{ni2023content,
   title={A Content-Driven Micro-Video Recommendation Dataset at Scale},
-  author={Yongxin Ni, Yu Cheng, Xiangyan Liu, Junchen Fu, Youhua Li, Xiangnan He, Yongfeng Zhang and Fajie Yuan},
+  author={Ni, Yongxin and Cheng, Yu and Liu, Xiangyan and Fu, Junchen and Li, Youhua and He, Xiangnan and Zhang, Yongfeng and Yuan, Fajie},
   journal={arXiv preprint arXiv:2309.15379},
   year={2023}
 }
