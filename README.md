@@ -28,7 +28,7 @@ If you use our dataset, code or find MicroLens useful in your work, please cite 
 ```bib
 @article{ni2023contentdriven,
   title={A Content-Driven Micro-Video Recommendation Dataset at Scale},
-  author={Yongxin Ni, Yu Cheng, Junjie Shan, Xiangyan Liu, Junchen Fu, Youhua Li, Xiangnan He, Yongfeng Zhang and Fajie Yuan},
+  author={Yongxin Ni, Yu Cheng, Xiangyan Liu, Junchen Fu, Youhua Li, Xiangnan He, Yongfeng Zhang and Fajie Yuan},
   journal={arXiv preprint arXiv:2309.15379},
   year={2023}
 }
