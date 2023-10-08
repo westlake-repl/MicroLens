@@ -18,7 +18,7 @@ Additionally, we have provided a MicroLens-100K folder, which consists of the Mi
 
 For various types of modal data and the interaction pairs of MicroLens-100K, MicroLens-1M, and MicroLens, we will release all of them once the paper is accepted. -->
 
-We release 50,000 users as well as their associated multi-modal data through the given link. To obtain the entire MicroLens dataset, please contact the corresponding author via email.
+We release 50,000 users as well as their associated multi-modal data (with raw text/image/audio/video provided) through the given link. To obtain the entire MicroLens dataset, please contact the corresponding author via email.
 
 We also release a subset of our MicroLens for multimodal fairness recommendation, which can be downloaded from https://recsys.westlake.edu.cn/MicroLens-Fairness-Dataset/
 
