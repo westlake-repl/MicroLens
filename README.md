@@ -1,5 +1,7 @@
 # A Content-Driven Micro-Video Recommendation Dataset at Scale
 
+# Invited Talk by DeepMind [(Slides)](https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf)
+
 # Dataset
 
 Download link: https://recsys.westlake.edu.cn/MicroLens-Dataset/
@@ -66,6 +68,10 @@ transformers==4.23.1
 # Video Understanding Meets Recommender Systems
 
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/main/Results/video_meets_rs.png"/></div>
+
+# Kind Reminder
+
+Note that you should not perform secondary processing on the dataset provided in this paper and offer a new download. If you need to do so, we encourage you to open source only the code for data processing and cite our work for downloading and local processing.
 
 # News
 #### The laboratory is hiring research assistants, interns, doctoral students, and postdoctoral researchers. Please contact the corresponding author for details.
