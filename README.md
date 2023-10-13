@@ -71,7 +71,7 @@ transformers==4.23.1
 
 # Kind Reminder
 
-Note that you should not perform secondary processing on the dataset provided in this paper and offer a new download. If you need to do so, we encourage you to open source only the code for data processing and cite our work for downloading and local processing.
+Note that you should not perform secondary processing on the dataset provided in this paper and offer a new download. If you need to do so, we encourage you to open source only the code for data processing and cite our work for data downloading and local processing.
 
 # News
 #### The laboratory is hiring research assistants, interns, doctoral students, and postdoctoral researchers. Please contact the corresponding author for details.
