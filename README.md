@@ -36,6 +36,10 @@ If you use our dataset, code or find MicroLens useful in your work, please cite 
 }
 ```
 
+# Kind Reminder
+
+Note that you should not perform secondary processing on the dataset provided in this paper and offer a new download. If you need to do so, we encourage you to open source only the code for data processing and cite our work for data downloading and local processing.
+
 # Code
 
 We have released the codes for all algorithms, including VideoRec (which implements all 15 video models in this project), IDRec, and VIDRec. For more details, please refer to the following paths: "Code/VideoRec", "Code/IDRec", and "Code/VIDRec". Each folder contains multiple subfolders, with each subfolder representing the code for a baseline.
@@ -68,10 +72,6 @@ transformers==4.23.1
 # Video Understanding Meets Recommender Systems
 
 <div align=center><img src="https://github.com/westlake-repl/MicroLens/blob/master/Results/video_meets_rs.png"/></div>
-
-# Kind Reminder
-
-Note that you should not perform secondary processing on the dataset provided in this paper and offer a new download. If you need to do so, we encourage you to open source only the code for data processing and cite our work for data downloading and local processing.
 
 # News
 #### The laboratory is hiring research assistants, interns, doctoral students, and postdoctoral researchers. Please contact the corresponding author for details.
