@@ -1,6 +1,6 @@
 # A Content-Driven Micro-Video Recommendation Dataset at Scale
 
-# Invited Talk by DeepMind [(Slides)](https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf)
+# Invited Talk by Google DeepMind [(Slides)](https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf)
 
 # Dataset
 
