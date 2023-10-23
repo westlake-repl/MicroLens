@@ -20,7 +20,7 @@ Additionally, we have provided a MicroLens-100K folder, which consists of the Mi
 
 For various types of modal data and the interaction pairs of MicroLens-100K, MicroLens-1M, and MicroLens, we will release all of them once the paper is accepted. -->
 
-We temporarily release MicroLens-100K (100,000 users as well as their associated multi-modal data with raw text/image/audio/video provided) through the given link. To acquire the complete MicroLens dataset, kindly reach out to the corresponding author via email. If you have an innovative idea for building a foundational recommendation model but require a large dataset and computational resources, consider joining our lab as an intern. We can provide access to 100 NVIDIA 80G A100 GPUs and a billion-level dataset of user-video/image/text interactions.
+We temporarily release MicroLens-100K (100,000 users as well as their associated multi-modal data with raw text/image/audio/video as well as video comments provided) through the given link. To acquire the complete MicroLens dataset, kindly reach out to the corresponding author via email. If you have an innovative idea for building a foundational recommendation model but require a large dataset and computational resources, consider joining our lab as an intern. We can provide access to 100 NVIDIA 80G A100 GPUs and a billion-level dataset of user-video/image/text interactions.
 
 We also release a subset of our MicroLens for multimodal fairness recommendation, which can be downloaded from https://recsys.westlake.edu.cn/MicroLens-Fairness-Dataset/
 
