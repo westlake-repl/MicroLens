@@ -6,7 +6,8 @@
 
 Download links: https://recsys.westlake.edu.cn/MicroLens-50k-Dataset/ and https://recsys.westlake.edu.cn/MicroLens-100k-Dataset/
 
-Email us if you find the link is not available
+**Email us if you find the link is not available.**
+
 
 <!-- Dataset downloader (for Windows): https://github.com/microlens2023/microlens-dataset/blob/master/Downloader/microlens_downloader.exe
 
