@@ -2,6 +2,10 @@
 
 # Invited Talk by Google DeepMind [(Slides)](https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf)
 
+# Note (2024.01.09 updated)
+
+Due to the server issue, the video support service will be recovered on 2024.01.11.
+
 # Dataset
 
 Download links: https://recsys.westlake.edu.cn/MicroLens-50k-Dataset/ and https://recsys.westlake.edu.cn/MicroLens-100k-Dataset/
