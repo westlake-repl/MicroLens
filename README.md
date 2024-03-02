@@ -1,6 +1,10 @@
-# A Content-Driven Micro-Video Recommendation Dataset at Scale
+# A Large-scale Multimodal Short-Video Dataset with Raw Content
 
-# Invited Talk by Google DeepMind [(Slides)](https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf)
+We provide support for a range of tasks, including **Short Video Generation** related to popular models like **Stable Diffusion** and **Sora**, general **Video Understanding** tasks, and **Video Recommendation**.
+
+# Paper Title: A Content-Driven Micro-Video Recommendation Dataset at Scale
+
+# Invited Talk by Google DeepMind & YouTube & Alipay [(Slides)](https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf)
 
 # Dataset
 
@@ -23,7 +27,7 @@ Additionally, we have provided a MicroLens-100K folder, which consists of the Mi
 
 For various types of modal data and the interaction pairs of MicroLens-100K, MicroLens-1M, and MicroLens, we will release all of them once the paper is accepted. -->
 
-## Videos uploaded (2023.10.28 updated)
+## Videos uploaded
 
 We have temporarily released MicroLens-50K (50,000 users) and MicroLens-100K (100,000 users) along with their associated multimodal data, including raw text, images, audio, video, and video comments. You can access them through the provided link. To acquire the complete MicroLens dataset, kindly reach out to the corresponding author via email. If you have an innovative idea for building a foundational recommendation model but require a large dataset and computational resources, consider joining our lab as an intern. We can provide access to 100 NVIDIA 80G A100 GPUs and a billion-level dataset of user-video/image/text interactions.
 
