@@ -1,6 +1,6 @@
 # A Large-scale Multimodal Short-Video Dataset with Raw Content
 
-## We provide support for a range of tasks, including **Short Video Generation** related to popular models like **Stable Diffusion** and **Sora**, general **Video Understanding** tasks, and **Video Recommendation**.
+## We provide support for a range of tasks, including **Short Video Generation** related to popular models like **Stable Diffusion** and **Sora**, **General Video Understanding** tasks, and **Video Recommendation**.
 
 # Paper Title: A Content-Driven Micro-Video Recommendation Dataset at Scale
 
