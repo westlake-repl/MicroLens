@@ -2,7 +2,7 @@
 
 <!--## We provide support for a range of tasks, including **Short Video Generation** related to popular models like **Stable Diffusion** and **Sora**, **General Video Understanding** tasks, and **Video Recommendation**.-->
 
-# Paper Title: A Content-Driven Micro-Video Recommendation Dataset at Scale
+#  A Content-Driven Micro-Video Recommendation Dataset at Scale
 
 ## Talks & Slides: Invited Talk by Google DeepMind & YouTube & Alipay [(Slides)](https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf)
 
