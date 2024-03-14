@@ -1,0 +1,7 @@
+feature_extraction.py: show how to extract features from video frames.
+
+generate_cover_frames.py: show how to generate covers from videos.
+
+generate_cover_frames_lmdb.py: show how to generate lmdb data from video frames to support the end2end training.
+
+see details from the codes.
