@@ -5,14 +5,17 @@ from PIL import Image
 import torchvision.transforms as transforms
 from transformers import VideoMAEFeatureExtractor, VideoMAEConfig
 
+# save each image as a class with byte data, which can be decoded from lmdb database.
 class LMDB_Image:
     def __init__(self, image):
         self.image = image.tobytes()
 
+# save each video as a class with byte data, which can be decoded from lmdb database.
 class LMDB_VIDEO:
     def __init__(self, video):
         self.video = video.tobytes()
 
+# standard preprocessing for image
 transform = transforms.Compose([
         tv.transforms.Resize((224, 224)),
         tv.transforms.ToTensor(),
@@ -20,6 +23,7 @@ transform = transforms.Compose([
     ]
 )
 
+# save all images as a lmdb database, which would be extracted in the training phase.
 def generate_image_lmdb():
 	image_folder = 'cover_folder/' # to input
 	all_image = os.listdir(image_folder)
@@ -48,6 +52,7 @@ def generate_image_lmdb():
 	lmdb_env.sync()
 	lmdb_env.close()
 
+# save all videos as a lmdb database, which would be extracted in the training phase.
 def generate_video_lmdb(pretrain_path, video_path, frame_no):
 
 	configuration = VideoMAEConfig()
