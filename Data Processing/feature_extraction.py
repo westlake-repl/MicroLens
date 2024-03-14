@@ -5,6 +5,8 @@ import torch.nn as nn
 
 device = torch.device('cuda:4' if torch.cuda.is_available() else "cpu") 
 
+# save each video as a class with byte data, which can be decoded from lmdb database.
+# do not remove the following class
 class LMDB_VIDEO:
     def __init__(self, video):
         self.video = video.tobytes()
