@@ -2,7 +2,7 @@ import json, os, shutil
 import cv2, math
 import multiprocessing
 
-
+# extract frames from each video and save to the output_folder according to the frame number and frame interval (execution function)
 def get_frames_from_video(video_path, video_list, frame_no, frame_interval): 
 
 	output_folder = 'xxx_frames/' # to input
@@ -97,6 +97,7 @@ def get_frames_from_video(video_path, video_list, frame_no, frame_interval):
 				if not success or i == frame_index_list[-1]:
 					break
 
+# extract frames from each video and save to the output_folder according to the frame number and frame interval (main function)
 def generate_video_frames(process_no, video_path, frame_no, frame_interval):
 
 	video_list = os.listdir(video_path)
