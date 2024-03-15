@@ -7,9 +7,7 @@ import os
 import math
 from .dataset import  EvalDataset, SequentialDistributedSampler, LmdbEvalDataset, IdEvalDataset, ItemsDataset
 
-'''
-    一些工具代码, 用于本py文件
-'''
+
 
 def item_collate_fn(arr):
     arr = torch.LongTensor(np.array(arr))
