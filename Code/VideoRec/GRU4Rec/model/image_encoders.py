@@ -38,7 +38,7 @@ class MaeEncoder(torch.nn.Module):
         # self.dp = nn.Dropout(args.cv_dp) # help address overfitting in modal learning
 
     def forward(self, image):
-        return self.image_proj(self.image_net(image)[0][:,0]) # 取cls
+        return self.image_proj(self.image_net(image)[0][:,0]) # get cls
 
 class SwinEncoder(torch.nn.Module):
     def __init__(self, image_net, args):
@@ -76,7 +76,7 @@ class ResnetEncoder(torch.nn.Module):
         return self.resnet(image)
 
 
-# 弃用
+
 class Wighted_Cat_Img_Text_fushion(torch.nn.Module):
     def __init__(self, args):
         super(Wighted_Cat_Img_Text_fushion, self).__init__()
