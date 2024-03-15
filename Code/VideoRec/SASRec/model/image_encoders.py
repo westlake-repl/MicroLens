@@ -11,7 +11,7 @@ class VitEncoder(torch.nn.Module):
         self.word_emb = args.word_embedding_dim
 
         self.image_net = image_net
-        self.activate = nn.ReLU() #经过讨论，认为这个relu没用，因此舍弃
+        self.activate = nn.ReLU() 
 
         self.image_proj = nn.Linear(self.word_emb, self.emb_size)
         xavier_normal_(self.image_proj.weight.data)
@@ -19,7 +19,7 @@ class VitEncoder(torch.nn.Module):
             constant_(self.image_proj.bias.data, 0)
 
     def forward(self, image):
-        return self.image_proj(self.image_net(image)[0][:,0]) # 取cls
+        return self.image_proj(self.image_net(image)[0][:,0]) # get cls
 
 class MaeEncoder(torch.nn.Module):
     def __init__(self, image_net, args):
@@ -28,17 +28,17 @@ class MaeEncoder(torch.nn.Module):
         self.word_emb = args.word_embedding_dim
 
         self.image_net = image_net
-        # self.activate = nn.ReLU() #经过讨论，认为这个relu没用，因此舍弃
+        # self.activate = nn.ReLU()
 
         self.image_proj = nn.Linear(self.word_emb, self.emb_size)
         xavier_normal_(self.image_proj.weight.data)
         if self.image_proj.bias is not None:
             constant_(self.image_proj.bias.data, 0)
 
-        # self.dp = nn.Dropout(args.cv_dp) #可能dp十分重要，有助于缓解多模态中强势模态的过拟合问题
+        # self.dp = nn.Dropout(args.cv_dp) # help address overfitting in modal learning
 
     def forward(self, image):
-        return self.image_proj(self.image_net(image)[0][:,0]) # 取cls
+        return self.image_proj(self.image_net(image)[0][:,0]) # get cls
 
 class SwinEncoder(torch.nn.Module):
     def __init__(self, image_net, args):
@@ -52,7 +52,7 @@ class SwinEncoder(torch.nn.Module):
         if self.image_net.classifier.bias is not None:
             constant_(self.image_net.classifier.bias.data, 0)
 
-        # self.dp = nn.Dropout(args.cv_dp) #可能dp十分重要，有助于缓解多模态中强势模态的过拟合问题
+        # self.dp = nn.Dropout(args.cv_dp) # help address overfitting in modal learning
 
     def forward(self, image):
         return self.image_net(image)[0]
@@ -63,7 +63,7 @@ class ResnetEncoder(torch.nn.Module):
         super(ResnetEncoder, self).__init__()
         self.resnet = image_net
 
-        # self.activate = nn.GELU()  # 经过讨论，认为这个非线性没用，因此舍弃
+        # self.activate = nn.GELU() 
 
         num_fc_ftr = self.resnet.fc.in_features
         self.resnet.fc = nn.Linear(num_fc_ftr, args.embedding_dim)
@@ -76,7 +76,7 @@ class ResnetEncoder(torch.nn.Module):
         return self.resnet(image)
 
 
-# 弃用
+
 class Wighted_Cat_Img_Text_fushion(torch.nn.Module):
     def __init__(self, args):
         super(Wighted_Cat_Img_Text_fushion, self).__init__()
@@ -91,18 +91,18 @@ class Wighted_Cat_Img_Text_fushion(torch.nn.Module):
 
     def forward(self, input_embs_text, input_embs_CV):
 
-        # 投影    
+        # mapping    
         input_embs_all_text_ = self.text_embed(input_embs_text)
         input_embs_all_CV_ = self.cv_embed(input_embs_CV) 
         
-        # 归一化，抹平两种模态的数量上的差距
+        # normalization
         input_embs_all_text_nor = self.layer_norm(input_embs_all_text_)
         input_embs_all_CV_nor = self.layer_norm(input_embs_all_CV_)
 
         # fushion
         input_embs_all_CV_text_concat = torch.cat([input_embs_all_text_nor, input_embs_all_CV_nor], 1)
-        alpha = self.activate(self.dense(input_embs_all_CV_text_concat)) #加权
-        input_embs_all_CV_text_concat = alpha * input_embs_all_text_nor + (1 - alpha) * input_embs_all_CV_nor  # 加权融合
+        alpha = self.activate(self.dense(input_embs_all_CV_text_concat)) 
+        input_embs_all_CV_text_concat = alpha * input_embs_all_text_nor + (1 - alpha) * input_embs_all_CV_nor  # weighted fusion
 
         return input_embs_all_CV_text_concat
 
@@ -137,6 +137,5 @@ class Bottle_neck_Img_Text_fushion(torch.nn.Module):
 
         # return  input_embs_all_
 
-        # 压缩显存
         return  self.MLPlayer(torch.cat([self.layer_norm(input_embs_text), self.layer_norm(input_embs_CV)], 1))
 
