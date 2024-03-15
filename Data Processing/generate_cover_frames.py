@@ -62,7 +62,7 @@ def get_frames_from_video(video_path, video_list, frame_no, frame_interval):
 			success, image_tensor = video_capture.read()
 			i += 1
 			if i in frame_index_list:
-				cv2.imwrite(output_folder+str(combine_video_encode_dict[video])+'-'+str(frame_count)+'.jpg', image_tensor)
+				cv2.imwrite(output_folder+str(video)+'-'+str(frame_count)+'.jpg', image_tensor)
 				frame_count += 1
 			if not success or i == frame_index_list[-1]:
 				break
@@ -92,7 +92,7 @@ def get_frames_from_video(video_path, video_list, frame_no, frame_interval):
 				success, image_tensor = video_capture.read()
 				i += 1
 				if i in frame_index_list:
-					cv2.imwrite(output_folder+str(combine_video_encode_dict[video])+'-'+str(frame_count)+'.jpg', image_tensor)
+					cv2.imwrite(output_folder+str(video)+'-'+str(frame_count)+'.jpg', image_tensor)
 					frame_count += 1
 				if not success or i == frame_index_list[-1]:
 					break
