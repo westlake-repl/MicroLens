@@ -20,7 +20,7 @@ class TextEncoder(torch.nn.Module):
 
         hidden_states = self.bert_model(input_ids=text_ids, attention_mask=text_attmask)[0]
         # cls_after_pooler = self.activate(self.pooler(hidden_states[:, 0]))
-        cls_after_pooler = self.pooler(hidden_states[:, 0]) #这是一开始效果最好的那个代码的设置，没加激活
+        cls_after_pooler = self.pooler(hidden_states[:, 0]) 
         return cls_after_pooler
 
 class TextEmbedding(torch.nn.Module):
