@@ -280,8 +280,8 @@ def train(args, model_dir, Log_file, Log_screen, start_time, local_rank):
         Log_file.info('load checkpoint...')
         model.load_state_dict(checkpoint['model_state_dict'])
         Log_file.info(f'Model loaded from {args.load_ckpt_name}')
-        torch.set_rng_state(checkpoint['rng_state'])  # load torch的随机数生成器状态
-        torch.cuda.set_rng_state(checkpoint['cuda_rng_state'])  # load torch.cuda的随机数生成器状态
+        torch.set_rng_state(checkpoint['rng_state'])  # random seed status in loading torch
+        torch.cuda.set_rng_state(checkpoint['cuda_rng_state'])  # random seed status in loading torch.cuda
         is_early_stop = False
     else:
         checkpoint = None  # new
@@ -366,7 +366,7 @@ def train(args, model_dir, Log_file, Log_screen, start_time, local_rank):
     for index, (name, param) in enumerate(model.module.named_parameters()):
         if param.requires_grad:
             if 'image_encoder' in name:
-                # if 'image_proj' in name or 'fc' in name: # 在vit中也有叫fc的所以容易冲撞，
+                # if 'image_proj' in name or 'fc' in name:
                 if 'image_proj' in name or 'classifier' in name:  # image_proj: clip_vit, mae ; classifier: swin_tiny, swin_base ; fc: resnet
                     recsys_params.append(param)
                 elif 'resnet' in name and 'fc' in name:
@@ -415,7 +415,7 @@ def train(args, model_dir, Log_file, Log_screen, start_time, local_rank):
     Log_file.info('***** model: {} parameters require grad, {} parameters freeze *****'.format(
         len(model_params_require_grad), len(model_params_freeze)))
 
-    if 'None' not in args.load_ckpt_name:   # load 优化器状态
+    if 'None' not in args.load_ckpt_name:   # load optimizer status
         optimizer.load_state_dict(checkpoint['optimizer'])
         Log_file.info(f'optimizer loaded from {ckpt_path}')
     
@@ -533,7 +533,7 @@ def train(args, model_dir, Log_file, Log_screen, start_time, local_rank):
 
             optimizer.zero_grad()
 
-            # # 混合精度（加速）
+            # Mixed accuracy (acceleration)
             with autocast(enabled=True):
                 bz_loss, bz_align, bz_uniform = model(sample_items_id, sample_items_text, sample_items_image, sample_items_video, log_mask, local_rank, args)
                 loss += bz_loss.data.float()
