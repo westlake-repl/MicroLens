@@ -18,6 +18,7 @@ video_number = 91402 # to input
 
 avg_pool = nn.AdaptiveAvgPool2d((1, 768))
 configuration = VideoMAEConfig(num_frames=frame_no)
+# download link for videomae: https://huggingface.co/MCG-NJU/videomae-base/tree/main
 video_model = VideoMAEModel.from_pretrained('/home/public/data/pretrained_models/videomae_base', config = configuration).to(device)
 
 env = lmdb.open(video_lmdb_path, subdir=os.path.isdir(video_lmdb_path),
