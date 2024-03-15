@@ -71,7 +71,7 @@ class ModalDataset(Dataset):
 
         sample_items_text = np.zeros((self.max_seq_len, self.text_size * 2))
         sample_items_image = np.zeros((self.max_seq_len, 3, self.resize, self.resize))
-        sample_items_video = np.zeros((self.max_seq_len, self.args.frame_no, 3, 224, 224))  # 暂时写死
+        sample_items_video = np.zeros((self.max_seq_len, self.args.frame_no, 3, 224, 224))  
         sample_items_id = [0] * mask_len_head + seq
 
         ##################################### Text #####################################
