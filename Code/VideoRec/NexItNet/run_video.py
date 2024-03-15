@@ -96,7 +96,7 @@ for batch_size in batch_size_list:
                 text_fine_tune_lr = text_fine_tune_lr_list[index]
                 image_fine_tune_lr = image_fine_tune_lr_list[index]
                 video_fine_tune_lr = video_fine_tune_lr_list[index]
-                lr = lr_list[index]   # 两种fine_tune_lr要组合使用
+                lr = lr_list[index] 
 
                 label_screen = '{}_bs{}_ed{}_lr{}_dp{}_L2{}_len{}'.format(
                         item_tower, batch_size, embedding_dim, lr,
