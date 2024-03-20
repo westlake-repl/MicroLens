@@ -1,10 +1,32 @@
+# MicroLens: A Content-Driven Micro-Video Recommendation Dataset at Scale
 
+<a href="https://arxiv.org/pdf/2309.15379.pdf" alt="paper"><img src="https://img.shields.io/badge/ArXiv-2309.06789-FAA41F.svg?style=flat" /></a>
+<a href="https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf" alt="talk"><img src="https://img.shields.io/badge/slides-orange" /></a> 
+<a href="https://medium.com/@lifengyi_6964/building-a-large-scale-short-video-recommendation-dataset-and-benchmark-06e744746555" alt="blog"><img src="https://img.shields.io/badge/blog-purple" /></a> 
+<a href="https://zhuanlan.zhihu.com/p/675213913" alt="zhihu"><img src="https://img.shields.io/badge/知乎-blue" /></a> 
+ 
+![Multi-Modal](https://img.shields.io/badge/Task-Multi-Modal-red) 
+![Foundation-Model](https://img.shields.io/badge/Task-Foundation-Model-red) 
+![Video-Understanding](https://img.shields.io/badge/Task-Video-Understanding-red) 
+![Video-Generation](https://img.shields.io/badge/Task-Video-Generation-red) 
+![Video-Recommendation](https://img.shields.io/badge/Task-Video-Recommendation-red) 
+
+Quick Links: [🗃️Dataset](#Dataset) |
+[📭Citation](#Citation) |
+[🛠️Code](#Code) |
+[🚀Baseline Evaluation](#Baseline Evaluation) |
+[🤗Video Understanding Meets Recommender Systems](#Video Understanding Meets Recommender Systems) |
+[💡News](#News)
+
+<p align="center" width="100%">
+  <img src='https://camo.githubusercontent.com/ace7effc2b35cda2c66d5952869af563e851f89e5e1af029cfc9f69c7bebe78d/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67' width="100%">
+</p>
 
 <!--## We provide support for a range of tasks, including **Short Video Generation** related to popular models like **Stable Diffusion** and **Sora**, **General Video Understanding** tasks, and **Video Recommendation**.-->
 
-#  A Content-Driven Micro-Video Recommendation Dataset at Scale
+<!--# A Content-Driven Micro-Video Recommendation Dataset at Scale-->
 
-## Talks & Slides: Invited Talk by Google DeepMind & YouTube & Alipay [(Slides)](https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf)
+# Talks & Slides: Invited Talk by Google DeepMind & YouTube & Alipay [(Slides)](https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf)
 
 # Dataset
 
