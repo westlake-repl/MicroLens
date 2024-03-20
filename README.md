@@ -1,7 +1,7 @@
 # MicroLens: A Content-Driven Micro-Video Recommendation Dataset at Scale
 
 <a href="https://arxiv.org/pdf/2309.15379.pdf" alt="paper"><img src="https://img.shields.io/badge/ArXiv-2309.06789-FAA41F.svg?style=flat" /></a>
-<a href="https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf" alt="talk"><img src="https://img.shields.io/badge/slides-orange" /></a> 
+<a href="https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf" alt="Talk"><img src="https://img.shields.io/badge/Talk-DeepMind-orange" /></a> 
 <a href="https://medium.com/@lifengyi_6964/building-a-large-scale-short-video-recommendation-dataset-and-benchmark-06e744746555" alt="blog"><img src="https://img.shields.io/badge/blog-purple" /></a> 
 <a href="https://zhuanlan.zhihu.com/p/675213913" alt="zhihu"><img src="https://img.shields.io/badge/知乎-blue" /></a> 
  
