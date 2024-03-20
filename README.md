@@ -5,17 +5,17 @@
 <a href="https://medium.com/@lifengyi_6964/building-a-large-scale-short-video-recommendation-dataset-and-benchmark-06e744746555" alt="blog"><img src="https://img.shields.io/badge/blog-purple" /></a> 
 <a href="https://zhuanlan.zhihu.com/p/675213913" alt="zhihu"><img src="https://img.shields.io/badge/知乎-blue" /></a> 
  
-![Multi-Modal](https://img.shields.io/badge/Task-Multi-Modal-red) 
-![Foundation-Model](https://img.shields.io/badge/Task-Foundation-Model-red) 
-![Video-Understanding](https://img.shields.io/badge/Task-Video-Understanding-red) 
-![Video-Generation](https://img.shields.io/badge/Task-Video-Generation-red) 
-![Video-Recommendation](https://img.shields.io/badge/Task-Video-Recommendation-red) 
+![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red) 
+![Foundation-Model](https://img.shields.io/badge/Task-Foundation--Model-red) 
+![Video-Understanding](https://img.shields.io/badge/Task-Video--Understanding-red) 
+![Video-Generation](https://img.shields.io/badge/Task-Video--Generation-red) 
+![Video-Recommendation](https://img.shields.io/badge/Task-Video--Recommendation-red) 
 
 Quick Links: [🗃️Dataset](#Dataset) |
 [📭Citation](#Citation) |
 [🛠️Code](#Code) |
-[🚀Baseline Evaluation](#Baseline Evaluation) |
-[🤗Video Understanding Meets Recommender Systems](#Video Understanding Meets Recommender Systems) |
+[🚀Baseline Evaluation](#Baseline_Evaluation) |
+[🤗Video Understanding Meets Recommender Systems](#Video_Understanding_Meets_Recommender_Systems) |
 [💡News](#News)
 
 <p align="center" width="100%">
@@ -95,11 +95,11 @@ torchvision==0.9.0
 transformers==4.23.1
 ```
 
-# Baseline Evaluation
+# Baseline_Evaluation
 
 <div align=center><img src="https://github.com/westlake-repl/MicroLens/blob/master/Results/baseline_evaluation.png"/></div>
 
-# Video Understanding Meets Recommender Systems
+# Video_Understanding_Meets_Recommender_Systems
 
 <div align=center><img src="https://github.com/westlake-repl/MicroLens/blob/master/Results/video_meets_rs.png"/></div>
 
