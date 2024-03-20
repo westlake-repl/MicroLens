@@ -2,8 +2,8 @@
 
 <a href="https://arxiv.org/pdf/2309.15379.pdf" alt="paper"><img src="https://img.shields.io/badge/ArXiv-2309.06789-FAA41F.svg?style=flat" /></a>
 <a href="https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf" alt="Talk"><img src="https://img.shields.io/badge/Talk-DeepMind-orange" /></a> 
-<a href="https://medium.com/@lifengyi_6964/building-a-large-scale-short-video-recommendation-dataset-and-benchmark-06e744746555" alt="blog"><img src="https://img.shields.io/badge/blog-purple" /></a> 
-<a href="https://zhuanlan.zhihu.com/p/675213913" alt="zhihu"><img src="https://img.shields.io/badge/知乎-blue" /></a> 
+<a href="https://medium.com/@lifengyi_6964/building-a-large-scale-short-video-recommendation-dataset-and-benchmark-06e744746555" alt="blog"><img src="https://img.shields.io/badge/Blog-Medium-purple" /></a> 
+<a href="https://zhuanlan.zhihu.com/p/675213913" alt="zhihu"><img src="https://img.shields.io/badge/zhihu-知乎-blue" /></a> 
  
 ![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red) 
 ![Foundation-Model](https://img.shields.io/badge/Task-Foundation--Model-red) 
@@ -34,6 +34,7 @@ Download links: https://recsys.westlake.edu.cn/MicroLens-50k-Dataset/ and https:
 
 **Email us if you find the link is not available.**
 
+<div align=center><img src="https://github.com/westlake-repl/MicroLens/blob/master/Results/dataset.png"/></div>
 
 <!-- Dataset downloader (for Windows): https://github.com/microlens2023/microlens-dataset/blob/master/Downloader/microlens_downloader.exe
 
