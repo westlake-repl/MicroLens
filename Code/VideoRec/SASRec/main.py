@@ -463,6 +463,8 @@ def train(args, model_dir, Log_file, Log_screen, start_time, local_rank):
 
     epoch_left = args.epoch - start_epoch
 
+    if args.mode == 'test':
+        epoch_left = 1
     for ep in range(epoch_left):
         now_epoch = start_epoch + ep + 1
         train_dl.sampler.set_epoch(now_epoch)
