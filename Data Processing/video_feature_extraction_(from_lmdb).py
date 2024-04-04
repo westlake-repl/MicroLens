@@ -2,6 +2,7 @@ import lmdb, os, pickle, torch
 import numpy as np
 from transformers import VideoMAEFeatureExtractor, VideoMAEModel, VideoMAEConfig
 import torch.nn as nn
+import json
 
 device = torch.device('cuda:4' if torch.cuda.is_available() else "cpu") 
 
@@ -48,4 +49,18 @@ with torch.no_grad():
 
 print(all_scoring.shape)
 all_scoring = all_scoring.data.cpu().numpy()
-np.save('100wu_items.npy', all_scoring)
+np.save('MicroLens-100k_video_features_VideoMAE.npy', all_scoring)
+
+
+### npy to json file, str(item id) is the key, embedding (python list format) is the value.
+all_scoring = np.load('MicroLens-100k_video_features_VideoMAE.npy')
+print(all_scoring.shape)
+feature_json = {}
+for i in range(all_scoring.shape[0]):
+    feature_json[str(i+1)] = all_scoring[i].tolist() # Convert NumPy array to list
+with open('MicroLens-100k_video_features_VideoMAE.json', 'w') as f:
+    json.dump(feature_json, f)
+
+with open('MicroLens-100k_video_features_VideoMAE.json', 'r') as f:
+    feature_json = json.load(f)
+print(len(feature_json))
