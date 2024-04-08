@@ -52,7 +52,7 @@ For various types of modal data and the interaction pairs of MicroLens-100K, Mic
 
 ## News
 
-- **2024/04/00**: We have provided extracted multi-modal features (text/images/videos) of MicroLens-100k for multimodal recommendation tasks, see https://recsys.westlake.edu.cn/MicroLens-100k-Dataset/extracted_modality_features/.
+- **2024/04/04**: We have provided extracted multi-modal features (text/images/videos) of MicroLens-100k for multimodal recommendation tasks, see https://recsys.westlake.edu.cn/MicroLens-100k-Dataset/extracted_modality_features/.
 
 - **2024/03/01**: We have updated the command example for automatically downloading all videos, see https://github.com/westlake-repl/MicroLens/blob/master/Downloader/quick_download.txt.
 
