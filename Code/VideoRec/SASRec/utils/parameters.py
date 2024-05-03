@@ -32,7 +32,7 @@ def parse_args():
     parser.add_argument('--neg_num', type=int, default=100)
     parser.add_argument('--power', type=float, default=1.0)
     parser.add_argument('--version', type=str, default='v3')
-    parser.add_argument('--model', type=str, default='gru4rec')
+    parser.add_argument('--model', type=str, default='sasrec')
     parser.add_argument('--block_num', type=int, default=2)
 
     # ============== model parameters for text ==============
