@@ -18,9 +18,9 @@ Quick Links: [🗃️Dataset](#Dataset) |
 [🤗Video Understanding Meets Recommender Systems](#Video_Understanding_Meets_Recommender_Systems) |
 [💡News](#News)
 
-<p align="center" width="100%">
-  <img src='https://camo.githubusercontent.com/ace7effc2b35cda2c66d5952869af563e851f89e5e1af029cfc9f69c7bebe78d/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67' width="100%">
-</p>
+<!--<p align="center" width="100%">-->
+<!--  <img src='https://camo.githubusercontent.com/ace7effc2b35cda2c66d5952869af563e851f89e5e1af029cfc9f69c7bebe78d/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67' width="100%">-->
+<!--</p>-->
 
 <!--## We provide support for a range of tasks, including **Short Video Generation** related to popular models like **Stable Diffusion** and **Sora**, **General Video Understanding** tasks, and **Video Recommendation**.-->
 
