@@ -57,7 +57,7 @@ For various types of modal data and the interaction pairs of MicroLens-100K, Mic
 
 - 💡**2024/05/31**: The "like" and "view" data for each video has been uploaded, please see [MicroLens-50k_likes_and_views.txt](https://recsys.westlake.edu.cn/MicroLens-50k-Dataset/MicroLens-50k_likes_and_views.txt) and [MicroLens-100k_likes_and_views.txt](https://recsys.westlake.edu.cn/MicroLens-100k-Dataset/MicroLens-100k_likes_and_views.txt).
 
-- 🚀**2024/04/15**: Our dataset has been added to the MMRec framework! Please ee https://github.com/enoche/MMRec/tree/master/data for more details.
+- 🚀**2024/04/15**: Our dataset has been added to the MMRec framework! Please see https://github.com/enoche/MMRec/tree/master/data for more details!
 
 - 💡**2024/04/04**: We have provided extracted multi-modal features (text/images/videos) of MicroLens-100k for multimodal recommendation tasks, see https://recsys.westlake.edu.cn/MicroLens-100k-Dataset/extracted_modality_features/. The preprocessed code is uploaded, see [video_feature_extraction_(from_lmdb).py](https://github.com/westlake-repl/MicroLens/blob/master/Data%20Processing/video_feature_extraction_(from_lmdb).py).
 
