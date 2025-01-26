@@ -51,21 +51,21 @@ Additionally, we have provided a MicroLens-100K folder, which consists of the Mi
 For various types of modal data and the interaction pairs of MicroLens-100K, MicroLens-1M, and MicroLens, we will release all of them once the paper is accepted. -->
 
 ## News
-- **2025/01/27**: 🚀We release MicroLens-1M to support the Multimodal Information Retrieval Challenge (MIRC) at WWW 2025! Please see [MicroLens_1M_MMCTR](https://recsys.westlake.edu.cn/MicroLens-50k-Dataset/MicroLens-50k_likes_and_views.txt) and [MIRC](https://erel-mir.github.io/challenge/overview/) for more details!
+- 🚀**2025/01/27**: We release MicroLens-1M to support the Multimodal Information Retrieval Challenge (MIRC) at WWW 2025! Please see [MicroLens_1M_MMCTR](https://recsys.westlake.edu.cn/MicroLens-50k-Dataset/MicroLens-50k_likes_and_views.txt) and [MIRC](https://erel-mir.github.io/challenge/overview/) for more details!
 
-- **2025/01/26**: 💡We have fixed the value error of "likes_and_views" data, please see [MicroLens-50k_likes_and_views.txt](https://recsys.westlake.edu.cn/MicroLens-50k-Dataset/MicroLens-50k_likes_and_views.txt) and [MicroLens-100k_likes_and_views.txt](https://recsys.westlake.edu.cn/MicroLens-100k-Dataset/MicroLens-100k_likes_and_views.txt).
+- 💡**2025/01/26**: We have fixed the value error of "likes_and_views" data, please see [MicroLens-50k_likes_and_views.txt](https://recsys.westlake.edu.cn/MicroLens-50k-Dataset/MicroLens-50k_likes_and_views.txt) and [MicroLens-100k_likes_and_views.txt](https://recsys.westlake.edu.cn/MicroLens-100k-Dataset/MicroLens-100k_likes_and_views.txt).
 
-- **2024/05/31**: 💡The "like" and "view" data for each video has been uploaded, please see [MicroLens-50k_likes_and_views.txt](https://recsys.westlake.edu.cn/MicroLens-50k-Dataset/MicroLens-50k_likes_and_views.txt) and [MicroLens-100k_likes_and_views.txt](https://recsys.westlake.edu.cn/MicroLens-100k-Dataset/MicroLens-100k_likes_and_views.txt).
+- 💡**2024/05/31**: The "like" and "view" data for each video has been uploaded, please see [MicroLens-50k_likes_and_views.txt](https://recsys.westlake.edu.cn/MicroLens-50k-Dataset/MicroLens-50k_likes_and_views.txt) and [MicroLens-100k_likes_and_views.txt](https://recsys.westlake.edu.cn/MicroLens-100k-Dataset/MicroLens-100k_likes_and_views.txt).
 
-- **2024/04/15**: 🚀Our dataset has been added to the MMRec framework! Please ee https://github.com/enoche/MMRec/tree/master/data for more details.
+- 🚀**2024/04/15**: Our dataset has been added to the MMRec framework! Please ee https://github.com/enoche/MMRec/tree/master/data for more details.
 
-- **2024/04/04**: 💡We have provided extracted multi-modal features (text/images/videos) of MicroLens-100k for multimodal recommendation tasks, see https://recsys.westlake.edu.cn/MicroLens-100k-Dataset/extracted_modality_features/. The preprocessed code is uploaded, see [video_feature_extraction_(from_lmdb).py](https://github.com/westlake-repl/MicroLens/blob/master/Data%20Processing/video_feature_extraction_(from_lmdb).py).
+- 💡**2024/04/04**: We have provided extracted multi-modal features (text/images/videos) of MicroLens-100k for multimodal recommendation tasks, see https://recsys.westlake.edu.cn/MicroLens-100k-Dataset/extracted_modality_features/. The preprocessed code is uploaded, see [video_feature_extraction_(from_lmdb).py](https://github.com/westlake-repl/MicroLens/blob/master/Data%20Processing/video_feature_extraction_(from_lmdb).py).
 
-- **2024/03/01**: 💡We have updated the command example for automatically downloading all videos, see https://github.com/westlake-repl/MicroLens/blob/master/Downloader/quick_download.txt.
+- 💡**2024/03/01**: We have updated the command example for automatically downloading all videos, see https://github.com/westlake-repl/MicroLens/blob/master/Downloader/quick_download.txt.
 
-- **2023/10/21**: 💡We also release a subset of our MicroLens with extracted features for multimodal fairness recommendation, which can be downloaded from https://recsys.westlake.edu.cn/MicroLens-Fairness-Dataset/
+- 💡**2023/10/21**: We also release a subset of our MicroLens with extracted features for multimodal fairness recommendation, which can be downloaded from https://recsys.westlake.edu.cn/MicroLens-Fairness-Dataset/
 
-- **2023/09/28**: 💡We have temporarily released MicroLens-50K (50,000 users) and MicroLens-100K (100,000 users) along with their associated multimodal data, including raw text, images, audio, video, and video comments. You can access them through the provided link. To acquire the complete MicroLens dataset, kindly reach out to the corresponding author via email. If you have an innovative idea for building a foundational recommendation model but require a large dataset and computational resources, consider joining our lab as an intern. We can provide access to 100 NVIDIA 80G A100 GPUs and a billion-level dataset of user-video/image/text interactions.
+- 💡**2023/09/28**: We have temporarily released MicroLens-50K (50,000 users) and MicroLens-100K (100,000 users) along with their associated multimodal data, including raw text, images, audio, video, and video comments. You can access them through the provided link. To acquire the complete MicroLens dataset, kindly reach out to the corresponding author via email. If you have an innovative idea for building a foundational recommendation model but require a large dataset and computational resources, consider joining our lab as an intern. We can provide access to 100 NVIDIA 80G A100 GPUs and a billion-level dataset of user-video/image/text interactions.
 
 # Citation
 If you use our dataset, code or find MicroLens useful in your work, please cite our paper as:
