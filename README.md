@@ -51,7 +51,7 @@ Additionally, we have provided a MicroLens-100K folder, which consists of the Mi
 For various types of modal data and the interaction pairs of MicroLens-100K, MicroLens-1M, and MicroLens, we will release all of them once the paper is accepted. -->
 
 ## News
-- 🚀**2025/01/27**: We release MicroLens-1M to support the Multimodal Information Retrieval Challenge (MIRC) at WWW 2025! Please see [MicroLens_1M_MMCTR](https://recsys.westlake.edu.cn/MicroLens-50k-Dataset/MicroLens-50k_likes_and_views.txt) and [MIRC](https://erel-mir.github.io/challenge/overview/) for more details!
+- 🚀**2025/01/27**: We release MicroLens-1M to support the Multimodal Information Retrieval Challenge (MIRC) at WWW 2025! Please see [MicroLens_1M_MMCTR](https://recsys.westlake.edu.cn/MicroLens_1M_MMCTR/) and [MIRC](https://erel-mir.github.io/challenge/overview/) for more details!
 
 - 💡**2025/01/26**: We have fixed the value error of "likes_and_views" data, please see [MicroLens-50k_likes_and_views.txt](https://recsys.westlake.edu.cn/MicroLens-50k-Dataset/MicroLens-50k_likes_and_views.txt) and [MicroLens-100k_likes_and_views.txt](https://recsys.westlake.edu.cn/MicroLens-100k-Dataset/MicroLens-100k_likes_and_views.txt).
 
