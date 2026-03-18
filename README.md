@@ -30,7 +30,7 @@ Quick Links: [🗃️Dataset](#Dataset) |
 
 # Dataset
 
-Download links: https://recsys.westlake.edu.cn/MicroLens-50k-Dataset/ and https://recsys.westlake.edu.cn/MicroLens-100k-Dataset/
+Download links: https://recsys.westlake.edu.cn/
 
 **Email us if you find the link is not available.**
 
