@@ -53,11 +53,11 @@ For various types of modal data and the interaction pairs of MicroLens-100K, Mic
 ## News
 - 🚀**2026/03/18**: We have redesigned our website and released the original MicroLens-1M dataset including all videos! Please see https://recsys.westlake.edu.cn/ for more details!
 
-- 🚀**2025/01/27**: We release MicroLens-1M to support the Multimodal Information Retrieval Challenge (MIRC) at WWW 2025! Please see [MicroLens_1M_MMCTR](https://recsys.westlake.edu.cn/MicroLens_1M_MMCTR/) and [MIRC](https://erel-mir.github.io/challenge/overview/) for more details!
+- 🚀**2025/01/27**: We release MicroLens-1M to support the Multimodal Information Retrieval Challenge (MIRC) at WWW 2025! Please see [MicroLens_1M_MMCTR](https://recsys.westlake.edu.cn/) and [MIRC](https://erel-mir.github.io/challenge/overview/) for more details!
 
-- 💡**2025/01/26**: We have fixed the value error of "likes_and_views" data, please see [MicroLens-50k_likes_and_views.txt](https://recsys.westlake.edu.cn/MicroLens-50k-Dataset/MicroLens-50k_likes_and_views.txt) and [MicroLens-100k_likes_and_views.txt](https://recsys.westlake.edu.cn/MicroLens-100k-Dataset/MicroLens-100k_likes_and_views.txt).
+- 💡**2025/01/26**: We have fixed the value error of "likes_and_views" data, please see [MicroLens-50k_likes_and_views.txt](https://recsys.westlake.edu.cn/) and [MicroLens-100k_likes_and_views.txt](https://recsys.westlake.edu.cn/).
 
-- 💡**2024/05/31**: The "like" and "view" data for each video has been uploaded, please see [MicroLens-50k_likes_and_views.txt](https://recsys.westlake.edu.cn/MicroLens-50k-Dataset/MicroLens-50k_likes_and_views.txt) and [MicroLens-100k_likes_and_views.txt](https://recsys.westlake.edu.cn/MicroLens-100k-Dataset/MicroLens-100k_likes_and_views.txt).
+- 💡**2024/05/31**: The "like" and "view" data for each video has been uploaded, please see [MicroLens-50k_likes_and_views.txt](https://recsys.westlake.edu.cn/) and [MicroLens-100k_likes_and_views.txt](https://recsys.westlake.edu.cn/).
 
 - 🚀**2024/04/15**: Our dataset has been added to the MMRec framework! Please see https://github.com/enoche/MMRec/tree/master/data for more details!
 
